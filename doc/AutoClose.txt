@@ -31,9 +31,10 @@ will not insert the closing character for you.
     2. Features                                |ac_features|
     3. Configuring                             |ac_config|
        3.1 Defining characters to auto close   |ac_charstoclose|
-       3.2 Defining protected regions          |ac_protectedregions|
-       3.3 Turning AutoClose on and off        |ac_turnon|
-       3.4 Selection wrap prefix               |ac_wrapPrefix|
+       3.2 Configuration helper functions
+       3.3 Defining protected regions          |ac_protectedregions|
+       3.4 Turning AutoClose on and off        |ac_turnon|
+       3.5 Selection wrap prefix               |ac_wrapPrefix|
     4. Under the hood                          |ac_details|
        4.1 Mappings                            |ac_mappings|
 
