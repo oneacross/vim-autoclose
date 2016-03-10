@@ -35,6 +35,7 @@ will not insert the closing character for you.
        3.3 Defining protected regions          |ac_protectedregions|
        3.4 Turning AutoClose on and off        |ac_turnon|
        3.5 Selection wrap prefix               |ac_wrapPrefix|
+       3.6 Expanding enter                     |ac_expandEnterOn|
     4. Under the hood                          |ac_details|
        4.1 Mappings                            |ac_mappings|
 
@@ -274,6 +275,17 @@ visual mode. Examples:
 
     " hide the sacrilege from the gods of vim:
     autocmd FileType vim let b:AutoCloseSelectionWrapPrefix="<Leader>a"
+<
+                                     *ac_expandEnterOn* *AutoCloseExpandEnterOn*
+
+3.6 Expanding enter~
+
+    Set to a list of open characters to expand enter on. This means that
+when the user types enter after an opening character, the cursor will move
+to the next line and the closing character will be put on a newline below
+the cursor. Example:
+>
+    let g:AutoCloseExpandEnterOn="([{"
 <
 ==============================================================================
                                                                   *ac_details*
